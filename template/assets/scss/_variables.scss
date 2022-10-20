@@ -15,23 +15,23 @@ $gray-800:    #191a1f;
 $gray-900:    #0f0f10;
 $black:       #000;
 
-$blue:        #007bff;
+$blue:        #154E72;
 $indigo:      #6610f2;
-$purple:      #6f42c1;
-$pink:        #e83e8c;
-$red:         #d6293e;
-$orange:      #fd7e14;
-$yellow:      #f7c32e;
-$green:       #0cbc87;
-$teal:        #20c997;
-$cyan:        #4f9ef8;
+$purple:      #5F6DBF;
+$pink:        #F6658E;
+$red:         #E32B4D;
+$orange:      #FF880F;
+$dark-orange: #F64928;
+$yellow:      #FFB847;
+$green:       #24B795;
 
-$primary:     #2163e8;
-$secondary:   $gray-600;
+
+$primary:     $pink;
+$secondary:   $red;
 $success:     $green;
-$info:        $cyan;
+$info:        $purple;
 $warning:     $yellow;
-$danger:      $red;
+$danger:      $dark-orange;
 $light:       $gray-100;
 $dark:        $gray-800;
 $dark-gray:   $gray-800; // Will be light in dark mode
