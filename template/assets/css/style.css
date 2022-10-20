@@ -30,7 +30,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #F6658E;
-  --bs-secondary: #E32B4D;
+  --bs-secondary: #154E72;
   --bs-success: #24B795;
   --bs-info: #5F6DBF;
   --bs-warning: #FFB847;
@@ -38,7 +38,7 @@
   --bs-light: #f7f8f9;
   --bs-dark: #191a1f;
   --bs-primary-rgb: 246, 101, 142;
-  --bs-secondary-rgb: 227, 43, 77;
+  --bs-secondary-rgb: 21, 78, 114;
   --bs-success-rgb: 36, 183, 149;
   --bs-info-rgb: 95, 109, 191;
   --bs-warning-rgb: 255, 184, 71;
@@ -3447,19 +3447,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #E32B4D;
-  --bs-btn-border-color: #E32B4D;
+  --bs-btn-bg: #154E72;
+  --bs-btn-border-color: #154E72;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #c12541;
-  --bs-btn-hover-border-color: #b6223e;
-  --bs-btn-focus-shadow-rgb: 231, 75, 104;
+  --bs-btn-hover-bg: #124261;
+  --bs-btn-hover-border-color: #113e5b;
+  --bs-btn-focus-shadow-rgb: 56, 105, 135;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #b6223e;
-  --bs-btn-active-border-color: #aa203a;
+  --bs-btn-active-bg: #113e5b;
+  --bs-btn-active-border-color: #103b56;
   --bs-btn-active-shadow: none;
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #E32B4D;
-  --bs-btn-disabled-border-color: #E32B4D;
+  --bs-btn-disabled-bg: #154E72;
+  --bs-btn-disabled-border-color: #154E72;
 }
 
 .btn-success {
@@ -3582,19 +3582,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #E32B4D;
-  --bs-btn-border-color: #E32B4D;
+  --bs-btn-color: #154E72;
+  --bs-btn-border-color: #154E72;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #E32B4D;
-  --bs-btn-hover-border-color: #E32B4D;
-  --bs-btn-focus-shadow-rgb: 227, 43, 77;
+  --bs-btn-hover-bg: #154E72;
+  --bs-btn-hover-border-color: #154E72;
+  --bs-btn-focus-shadow-rgb: 21, 78, 114;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #E32B4D;
-  --bs-btn-active-border-color: #E32B4D;
+  --bs-btn-active-bg: #154E72;
+  --bs-btn-active-border-color: #154E72;
   --bs-btn-active-shadow: none;
-  --bs-btn-disabled-color: #E32B4D;
+  --bs-btn-disabled-color: #154E72;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #E32B4D;
+  --bs-btn-disabled-border-color: #154E72;
   --bs-gradient: none;
 }
 
@@ -5442,12 +5442,12 @@ textarea.form-control-lg {
 }
 
 .alert-secondary {
-  --bs-alert-color: #881a2e;
-  --bs-alert-bg: #f9d5db;
-  --bs-alert-border-color: #f7bfca;
+  --bs-alert-color: #0d2f44;
+  --bs-alert-bg: #d0dce3;
+  --bs-alert-border-color: #b9cad5;
 }
 .alert-secondary .alert-link {
-  color: #6d1525;
+  color: #0a2636;
 }
 
 .alert-success {
@@ -5852,17 +5852,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-secondary {
-  color: #881a2e;
-  background-color: #f9d5db;
+  color: #0d2f44;
+  background-color: #d0dce3;
 }
 .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-  color: #881a2e;
-  background-color: #e0c0c5;
+  color: #0d2f44;
+  background-color: #bbc6cc;
 }
 .list-group-item-secondary.list-group-item-action.active {
   color: #fff;
-  background-color: #881a2e;
-  border-color: #881a2e;
+  background-color: #0d2f44;
+  border-color: #0d2f44;
 }
 
 .list-group-item-success {
@@ -7702,7 +7702,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(227, 43, 77, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(21, 78, 114, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -7743,10 +7743,10 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #E32B4D !important;
+  color: #154E72 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #b6223e !important;
+  color: #113e5b !important;
 }
 
 .link-success {
@@ -14132,7 +14132,7 @@ textarea.form-control-lg {
 }
 
 .fill-secondary {
-  fill: #E32B4D !important;
+  fill: #154E72 !important;
 }
 
 .fill-success {
@@ -14782,17 +14782,17 @@ textarea.form-control-lg {
 }
 
 .btn-secondary-soft {
-  color: #E32B4D;
-  background-color: rgba(227, 43, 77, 0.1);
+  color: #154E72;
+  background-color: rgba(21, 78, 114, 0.1);
 }
 .btn-secondary-soft:active, .btn-secondary-soft:hover {
   color: #fff;
-  background-color: #E32B4D;
-  border-color: #E32B4D;
+  background-color: #154E72;
+  border-color: #154E72;
 }
 .btn-secondary-soft:focus {
-  color: #E32B4D;
-  background-color: rgba(227, 43, 77, 0.1);
+  color: #154E72;
+  background-color: rgba(21, 78, 114, 0.1);
   border-color: transparent;
 }
 
