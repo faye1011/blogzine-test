@@ -28,6 +28,7 @@ $green:       #24B795;
 
 $primary:     $pink;
 $secondary:   $blue;
+$secondary-light: #EDF1F5;
 $success:     $green;
 $info:        $purple;
 $warning:     $yellow;
@@ -41,6 +42,7 @@ $light-gray:  $gray-600; // Will be light in dark mode
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "secondary-light":  $secondary-light-,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
