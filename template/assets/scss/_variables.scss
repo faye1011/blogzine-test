@@ -26,15 +26,14 @@ $yellow:      #FFB847;
 $green:       #24B795;
 
 
-$primary:     $pink;
-$secondary:   $blue;
-$secondary-light: #EDF1F5;
+$primary:     $yellow;
+$secondary:   $red;
 $success:     $green;
 $info:        $purple;
 $warning:     $yellow;
 $danger:      $dark-orange;
 $light:       $gray-100;
-$dark:        $gray-800;
+$dark:        $blue;
 $dark-gray:   $gray-800; // Will be light in dark mode
 $light-gray:  $gray-600; // Will be light in dark mode
 
@@ -48,7 +47,9 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $blue,
+  "gray-800":   $gray-800,
+  "red": $red,
 );
 // scss-docs-end theme-colors-map
 

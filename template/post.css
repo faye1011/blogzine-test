@@ -1,0 +1,23 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+li {
+    font-weight: 300;
+}
+
+h2 {
+font-family: '';
+}
+
+.nav-link {
+    color: white !important;
+}
