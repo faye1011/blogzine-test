@@ -52,7 +52,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Rubik, sans-serif;
+  --bs-body-font-family: Open Sans, sans-serif;
   --bs-body-font-size: 0.9375rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -111,7 +111,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 1.25;
   color: #fff;
@@ -3703,12 +3703,12 @@ textarea.form-control-lg {
 
 .btn-link {
   --bs-btn-font-weight: 500;
-  --bs-btn-color: var(--bs-link-color);
+  --bs-btn-color: #F6658E;
   --bs-btn-bg: transparent;
   --bs-btn-border-color: transparent;
-  --bs-btn-hover-color: var(--bs-link-hover-color);
+  --bs-btn-hover-color: #c55172;
   --bs-btn-hover-border-color: transparent;
-  --bs-btn-active-color: var(--bs-link-hover-color);
+  --bs-btn-active-color: #c55172;
   --bs-btn-active-border-color: transparent;
   --bs-btn-disabled-color: #d0d4d9;
   --bs-btn-disabled-border-color: transparent;
@@ -3822,7 +3822,7 @@ textarea.form-control-lg {
   --bs-dropdown-divider-margin-y: 0.5rem;
   --bs-dropdown-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3), 0px 0px 30px rgba(0, 0, 0, 0.3);
   --bs-dropdown-link-color: #c5c6cc;
-  --bs-dropdown-link-hover-color: #F6658E;
+  --bs-dropdown-link-hover-color: #F6658E !important;
   --bs-dropdown-link-hover-bg: transparent;
   --bs-dropdown-link-active-color: #F6658E;
   --bs-dropdown-link-active-bg: transparent;
@@ -5108,13 +5108,13 @@ textarea.form-control-lg {
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23190a0e'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23dd5b80'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-focus-border-color: none;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0 rgba(246, 101, 142, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
-  --bs-accordion-active-color: #190a0e;
-  --bs-accordion-active-bg: #fde0e8;
+  --bs-accordion-active-color: #dd5b80;
+  --bs-accordion-active-bg: #fef0f4;
 }
 
 .accordion-button {
@@ -5283,7 +5283,7 @@ textarea.form-control-lg {
   --bs-pagination-border-width: 1px;
   --bs-pagination-border-color: #30343c;
   --bs-pagination-border-radius: 0.25rem;
-  --bs-pagination-hover-color: var(--bs-white);
+  --bs-pagination-hover-color: #fff;
   --bs-pagination-hover-bg: #F6658E;
   --bs-pagination-hover-border-color: #F6658E;
   --bs-pagination-focus-color: var(--bs-link-hover-color);
@@ -5523,7 +5523,7 @@ textarea.form-control-lg {
   --bs-progress-border-radius: 0.375rem;
   --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
   --bs-progress-bar-color: #fff;
-  --bs-progress-bar-bg: #0d6efd;
+  --bs-progress-bar-bg: #F6658E;
   --bs-progress-bar-transition: width 0.6s ease;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6403,7 +6403,7 @@ textarea.form-control-lg {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: "Rubik", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
@@ -6513,7 +6513,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Rubik", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
@@ -16403,7 +16403,7 @@ a.badge:hover {
 }
 
 .apexcharts-legend-text, .apexcharts-text, .apexcharts-title-text, .apexcharts-text tspan, .apexcharts-tooltip-title, .apexcharts-tooltip-text, .apexcharts-xaxistooltip-text, .apexcharts-yaxistooltip-text {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .apexcharts-xaxis text, .apexcharts-yaxis text {
@@ -17482,11 +17482,11 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
 }
 
 .font-base {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .font-heading {
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .grayscale {

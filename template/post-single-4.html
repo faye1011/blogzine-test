@@ -14,6 +14,9 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
@@ -30,10 +33,10 @@
   <body>
     <!-- =======================
 Header START -->
-    <div class=" bg-dark ">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-3">
+    <div class=" bg-gray-800 ">
+      <nav class="navbar navbar-expand-lg navbar-gray-800 bg-gray-800 mx-3">
         <a class="navbar-brand" href="#">
-          <img src="./assets/images/logo.svg" width="20" height="20" class="d-inline-block align-top" alt="">
+          <img src="./assets/images/logo-icon.svg" width="20" height="20" class="d-inline-block align-top" alt="">
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,15 +45,21 @@ Header START -->
         <div class="collapse navbar-collapse  justify-content-between" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Discover <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Forum</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Hardware</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+
+
+
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown link
               </a>
@@ -59,11 +68,13 @@ Header START -->
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li>
+            </li> -->
           </ul>
           <ul class="nav navbar-nav navbar-right hstack gap-2 ">
-            <li><button type="button" class="btn btn-primary ">Sign Up</button> </li>
-            <li><button type="button" class="btn btn-bs-red ">Log In</button> </li>
+           
+            <li><button type="button" class="btn btn-secondary ">Log In</button> </li> 
+            <li> <button type="button"class="btn btn-gray-800 text-white">Sign Up</button></li>
+            <!-- <li><button type="button" class="btn btn-warning ">Sign Up</button> </li> -->
           </ul>
         </div>
       </nav>
@@ -76,26 +87,33 @@ Header END -->
     <main>
       <!-- =======================
 Inner intro START -->
+<div class="bg-gray-200 h-500px  pt-3 pb-2">
+<div class= " search-box mx-5">
+
+  <div class="row justify-content-center">
+
+  <div class="col-2 align-self-center">
+     <span class="badge bg-primary fs-6 py-2 px-3 align-self-cente"> <i class="fas fs-7 fa-circle me-2 fw-bold"></i>Heat Pump</span>
+
+  </div>
+<div class="col-8" >
+<div class="align-self-center input-group  "> 
+
+<input type="text" class="form-control  align-self-center " placeholder=" Search the heat pump community" aria-label="Recipient's username" aria-describedby="basic-addon2">
+<button type="button" class="btn btn- bg-info"><i class="bi bi-funnel text-white"></i>
+</div>
+</div>
+<!-- <div class="col-2">
+<button type="button" class="btn btn- bg-dark"><i class="bi bi-funnel"></i>
+</button>
+</div> -->
+</div>
+</div>
+</div> 
       <section class="pt-2 ">
   
-        <div class="container">  
-        <div class= "d-flex justify-content-between search-box mt-3 mb-3">
-          <div class="align-self-center">
-
-          
-          <h2 class=" bg-primary py-2 px-3 rounded-2 fs-5 fw-bolder text-white">Heat Pump</h2>
-          </div>
-  <div class="align-self-center " style="width: 500px">
-<div class="align-self-center input-group mb-2  ">
-  <input type="text" class="form-control rounded-3 align-self-center" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-
-</div>
-</div>
-<div class="align-self-center">
-  <button type="button" class="btn btn-info bg-dark">Advanced search</button>
-</div>
-
-        </div>
+        <div class="container ">  
+       
 
 
           <div class="row">
