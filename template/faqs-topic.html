@@ -68,14 +68,21 @@ Header END -->
 
     <section class="p-0">
       <div class="card bg-info overflow-hidden card-bg-scale h-400 text-center rounded-0">
+        <div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a class="text-danger" href="#">FAQs</a></li>
+              <li class="breadcrumb-item active text-white" aria-current="page">Hardware</li>
+            </ol>
+          </nav>
+        </div>
+
         <div class="w-100 my-auto d-flex flex-column">
           <h2 class="text-white display-5 fw-2">Hardware</h2>
           <div class="align-self-center form-group mt-5" style="width: 35%">
-            <!-- <div class="input-group-prepend">
-                    <span class="input-group-text rounded-5 bg-white"><i class="bi bi-search"></i></span>
-                  </div> -->
             <span class="fa fa-search" style="position: absolute; z-index: 2; display: block; width: 2.375rem; height: 2.375rem; line-height: 2.375rem; text-align: center; pointer-events: none; color: #aaa"></span>
-            <input type="text" class="form-control rounded-5" style="padding-left: 2.375rem" placeholder="Search hardware..." />
+            <input class="form-control rounded-5" style="padding-left: 2.375rem" type="search" placeholder="Search.." aria-label="Search" />
+            
           </div>
         </div>
       </div>
@@ -89,7 +96,7 @@ Header END -->
             <h2 class="card-title">Local MQTT</h2>
           </div>
           <!-- Detail -->
-          <div class="col-md-6 col-lg-4 ">
+          <div class="col-md-6 col-lg-4">
             <ul>
               <li><a href="#" class="btn-link text-reset">Never underestimate the influence of social media?</a></li>
               <li><a href="#" class="btn-link text-reset">Never underestimate the influence of social media lrem ipsum doloth?</a></li>
@@ -99,18 +106,17 @@ Header END -->
             </ul>
           </div>
         </div>
-        <hr class="w-75 align-self-center">
+        <hr class="w-75 align-self-center" />
       </div>
-
 
       <div class="card up-hover p-4 mb-4">
         <div class="row d-flex justify-content-center g-3">
-          <div class="col-lg-3 ">
+          <div class="col-lg-3">
             <!-- Title -->
             <h2 class="card-title">Glow IHD/CAD</h2>
           </div>
           <!-- Detail -->
-          <div class="col-md-6 col-lg-4 ">
+          <div class="col-md-6 col-lg-4">
             <ul>
               <li><a href="#" class="btn-link text-reset">Never underestimate the influence of social media?</a></li>
               <li><a href="#" class="btn-link text-reset">Never underestimate the influence of social media lrem ipsum doloth?</a></li>
@@ -120,10 +126,8 @@ Header END -->
             </ul>
           </div>
         </div>
-        <hr class="w-75 align-self-center">
+        <hr class="w-75 align-self-center" />
       </div>
-
-
     </section>
   </body>
 </html>
